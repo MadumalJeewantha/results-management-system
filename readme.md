@@ -12,28 +12,32 @@ For more information please refer document directory.
 ## Instructions to prepare environment file
 Please copy ".env.example" file into root directory as ".env". 
 
-# Generate app key
+### Generate app key
 Run this command using command line in root directory
 php artisan key:generate
 
-# Other properties
-<h4>Database related properties</h4>
+### Other properties
+<strong>Database related properties<strong>
 
+<pre>
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=[Database Name]
 DB_USERNAME=[Database Username]
 DB_PASSWORD=[Database User Password]
+</pre>
 
-<h4>Email related properties</h4>
+<strong>Email related properties</strong>
 
+<pre>
 MAIL_DRIVER=smtp
 MAIL_HOST=[If you are using Mailtrap Ex-smtp.mailtrap.io]
 MAIL_PORT=[2525]
 MAIL_USERNAME=[Username]
 MAIL_PASSWORD=[Password]
 MAIL_ENCRYPTION=tls
+</pre>
 
 ## About Laravel
 
