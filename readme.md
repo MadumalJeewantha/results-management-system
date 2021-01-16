@@ -1,7 +1,7 @@
 ## About Results Management System
 
-<p>Using this web based system students can access to their past results, GPA marks and they may get some guidance to achieve their academic carrier. Faculty staff and examination branch staff can use system to publish and manage student results, generate various reports and authorized persons can maintain and view student and lecturer profiles.
-Rational Unified Process was selected as the process model among all other software development methodologies by considering its advantages over other process models. Object oriented analysis and design techniques were used for the project and UML was used for modelling the system. The system was developed using MVC [17] architecture with Laravel [16] framework version 5.5 and used responsive design. Apache 2.4 was used as webserver. Object oriented PHP 7.1 for server side scripting, JavaScript for client side scripting, MySQL 5.7 for database and HTML5, CSS, Bootstrap [13] for the interface design were used.
+<p>Using this web based system students can access to their past results, GPA marks and they may get some guidance to achieve their academic carrier. Faculty staff and examination branch staff can use system to publish and manage student results, generate various reports and authorized persons can maintain and view student and lecturer profiles.<br>
+Rational Unified Process was selected as the process model among all other software development methodologies by considering its advantages over other process models. Object oriented analysis and design techniques were used for the project and UML was used for modelling the system. The system was developed using MVC [17] architecture with Laravel [16] framework version 5.5 and used responsive design. Apache 2.4 was used as webserver. Object oriented PHP 7.1 for server side scripting, JavaScript for client side scripting, MySQL 5.7 for database and HTML5, CSS, Bootstrap [13] for the interface design were used.<br>
 After implementing the system results publishing process take less time and managing results will be an easy task. Student and lecturer profiles data can be used for various purposes without consuming additional time. Apart from that, students can monitor and plan their academic carrier activities effectively. 
 </p>
 
@@ -14,7 +14,7 @@ Please copy ".env.example" file into root directory as ".env".
 
 ### Generate app key
 Run this command using command line in root directory
-php artisan key:generate
+<pre>php artisan key:generate</pre>
 
 ### Other properties
 <strong>Database related properties<strong>
